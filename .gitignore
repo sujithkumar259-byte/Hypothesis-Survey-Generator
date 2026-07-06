@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Secrets / local env
+.env
+.streamlit/secrets.toml
+
+# Backups & local artifacts
+survey_generator.bak/
+*.bak/
+project_store/
+**/uploads/
+**/outputs/
+**/_session/
+
+# Transient run logs (server stdout/stderr from local launches)
+*.log
+
+# Editor / OS
+.claude/
+.DS_Store
+Thumbs.db
+
+# Legacy R Stage-3 app (superseded by the pure-Python phase3 renderer) — kept locally, not shipped
+stage3_shiny_app_compact_v3_3/
+run_stage3.bat
+run_stage3_demo.R
+run_all.bat
+
+# Presentation artifacts (not code) — kept locally, not tracked
+Initial Draft Deck.pptx
+deck/
+arch_slide/
+onepager/
+recovered/
